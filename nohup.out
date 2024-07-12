@@ -1,0 +1,364 @@
+[I 2024-05-17 14:43:58,219] A new study created in memory with name: no-name-65141d13-7ad8-4f2a-8cf8-7672da876d58
+========== PumpStation3P-power-v1 ==========
+Seed: 2214561828
+Loading hyperparameters from: /home/math/rl-baselines3-zoo_pump_station/hyperparams/pump_station_optim_1_a2c.yml
+Default hyperparameters for environment (ones being tuned will be overridden):
+OrderedDict([('ent_coef', 0.0),
+             ('gae_lambda', 0.9),
+             ('gamma', 0.99),
+             ('learning_rate', 'lin_7e-4'),
+             ('max_grad_norm', 0.5),
+             ('n_envs', 4),
+             ('n_steps', 8),
+             ('n_timesteps', 5000000.0),
+             ('normalize', True),
+             ('normalize_advantage', False),
+             ('policy', 'MlpPolicy'),
+             ('policy_kwargs', 'dict(log_std_init=-2, ortho_init=False)'),
+             ('use_rms_prop', True),
+             ('use_sde', True),
+             ('vf_coef', 0.4)])
+Using 4 environments
+Overwriting n_timesteps with n=500000
+Doing 5 intermediate evaluations for pruning based on the number of timesteps. (1 evaluation every 100k timesteps)
+60 60
+Normalization activated: {'gamma': 0.99}
+Optimizing hyperparameters
+Sampler: random - Pruner: median
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99}
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
+Normalization activated: {'gamma': 0.99, 'norm_reward': False, 'training': False}
+60 60
